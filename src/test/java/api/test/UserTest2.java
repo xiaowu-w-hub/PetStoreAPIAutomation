@@ -48,7 +48,7 @@ public class UserTest2 {
     }
 
     @Test(priority = 2)
-    public void testGetUserByName(){
+    public void testGetUserByName() throws InterruptedException {
 
       loggers.info("*************** Waiting 3 seconds before getUser *******************");
     Thread.sleep(3000);
